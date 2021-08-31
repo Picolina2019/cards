@@ -10,7 +10,7 @@ function Box({ card, moveCard }) {
       e.preventDefault();
     }
   }
-  console.log(card);
+
   function handleDrop(e) {
     const dataJSON = e.dataTransfer.getData('text/plain');
     let data;

@@ -17,7 +17,7 @@ function Card() {
     <div
       className='card'
       style={{
-        backgroundColor: isDragging ? '#fbb' : 'palegoldenrod',
+        backgroundColor: isDragging ? '#fbb' : 'rgb(200, 241, 200)',
       }}
       draggable
       onDragStart={handleDragStart}
